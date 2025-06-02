@@ -1,0 +1,73 @@
+## .NET / C# Web API padrão
+
+# Compilação
+bin/
+obj/
+out/
+[Ll]og/
+*.log
+
+# Pacotes
+packages/
+*.nupkg
+*.snupkg
+*.nuspec
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Arquivos do Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Arquivos de build
+*.dll
+*.exe
+*.pdb
+*.cache
+*.dbmdl
+
+# Arquivos de sistema
+[Tt]humbs.db
+[Dd]esktop.ini
+*.DS_Store
+
+# Arquivos de publicação
+publish/
+*.pubxml
+*.Publish.xml
+
+# Configurações locais
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# Testes
+TestResults/
+*.coverage
+*.coveragexml
+*.testsettings
+*.vsmdi
+
+# Logs e arquivos temporários
+*.tmp
+*.temp
+
+# Rider
+.idea/
+*.sln.iml
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+
+# Outros
+*.swp
+*.bak
+
+# Ignorar arquivos de diretórios específicos
+**/bin/
+**/obj/
