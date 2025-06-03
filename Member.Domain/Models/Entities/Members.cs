@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 using Member.Domain.Models.Enums;
 
 namespace Member.Domain.Models.Entities

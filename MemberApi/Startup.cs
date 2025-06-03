@@ -22,10 +22,6 @@ public class Startup
 
     public void ConfigureServices(IServiceCollection services)
     {
-
-        Console.WriteLine("CONNECTION STRING: " + Configuration.GetConnectionString("DefaultConnection"));
-
-
         services.AddDbContext<PostgreeDbContext>(options =>
             options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
 
